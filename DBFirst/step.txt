@@ -1,2 +1,10 @@
+-- Tạo db sql đầu tiên
+
 B1: tạo project mvc = cli 
 dotnet new mvc -n DBFirst
+B2 cài đặt các gói 
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+dotnet add package Microsoft.EntityFrameworkCore.Tools
