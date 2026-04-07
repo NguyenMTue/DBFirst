@@ -8,3 +8,6 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
 dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+b3: thực hiện DBFirst
+dotnet ef dbcontext scaffold "Server=.;Database=NameDB;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -o Models
