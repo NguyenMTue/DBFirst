@@ -18,3 +18,6 @@ builder.Services.AddDbContext<StudentDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 b5 tạo controller và view để hiển thị
+
+vào link http://localhost:5250/Student 
+ 
