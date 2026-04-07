@@ -16,4 +16,5 @@ b4: Cấu hình và Đăng ký Service
 code program
 builder.Services.AddDbContext<StudentDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-    
+
+b5 tạo controller và view để hiển thị

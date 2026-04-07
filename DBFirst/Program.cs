@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using StudentManagement.Models; // Thay bằng Namespace thực tế của project bạn
+using DBFirst.Models; // Thay bằng Namespace thực tế của project bạn
 
 var builder = WebApplication.CreateBuilder(args);
 

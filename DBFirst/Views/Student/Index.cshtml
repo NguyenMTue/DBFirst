@@ -1,0 +1,30 @@
+﻿@model IEnumerable<DBFirst.Models.Student>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<h2>Danh sách sinh viên (DB First)</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Họ và tên</th>
+            <th>Tuổi</th>
+            <th>Email</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.FullName</td>
+            <td>@item.Age</td>
+            <td>@item.Email</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Chi tiết</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
