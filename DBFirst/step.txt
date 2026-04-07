@@ -1,0 +1,2 @@
+B1: tạo project mvc = cli 
+dotnet new mvc -n DBFirst
